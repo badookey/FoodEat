@@ -3,8 +3,8 @@
     "document_id": "-1OqFH8GjTGpoPp2zZ3I",
     "original_document_id": "dIqbcVOrO1eSDB40qpGf",
     "version": "16",
-    "lastChanged": "1571709199198",
-    "preview": "C:\/Users\/Luke\/Documents\/AR\/FoodEat\/icon.png",
+    "lastChanged": "1571717584617",
+    "preview": "X:\/GitHub\/FoodEat\/icon.png",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
@@ -214,7 +214,11 @@
                     "1571364064784225:867481",
                     "1571365293403311:1049785",
                     "1571706449664511:1294706",
-                    "1571706502830686:1328856"
+                    "1571706502830686:1328856",
+                    "1571708728954637:2139153",
+                    "1571708728961922:2139389",
+                    "1571708728973708:2139683",
+                    "1571708728983355:2139919"
                 ]
             ]
         },
@@ -1440,7 +1444,7 @@
                     },
                     {
                         "k": "73",
-                        "v": "4760823e6ccf5ded5ce03ffae6d05c1c"
+                        "v": "6363378a2152b0566c1c02c14c353446"
                     },
                     {
                         "k": "74",
@@ -1462,9 +1466,9 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-10-22T12:52:41",
+                        "lastModified": "2019-10-22T12:56:18",
                         "name": "Public",
-                        "hash": "ca81ef88a017150c77651dba5773d58e",
+                        "hash": "1cb03c3ca1456829eeb6b19355d84e67",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -1475,7 +1479,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-11T10:37:07",
+                                "lastModified": "2019-10-22T12:56:18",
                                 "name": "Default",
                                 "hash": "5d0daf4be82fee50df678f1d3a4975ad",
                                 "children": [
@@ -1511,7 +1515,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-11T10:37:07",
+                                "lastModified": "2019-10-22T12:56:18",
                                 "name": "Fonts",
                                 "hash": "0459529f1b7919024ddd6417c7d8daf4",
                                 "children": [
@@ -1568,9 +1572,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-22T12:51:28",
+                                "lastModified": "2019-10-22T15:04:54",
                                 "name": "Scripts",
-                                "hash": "f2e1a28e2526c77cfd67ea42d9f26bf6",
+                                "hash": "20d7f4adb504166f9e92d15ea01b4523",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -1595,9 +1599,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-22T12:51:28",
+                                        "lastModified": "2019-10-22T15:04:54",
                                         "name": "FoodController.js",
-                                        "hash": "4760823e6ccf5ded5ce03ffae6d05c1c",
+                                        "hash": "6363378a2152b0566c1c02c14c353446",
                                         "children": ""
                                     },
                                     {
@@ -1644,7 +1648,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-10-18T11:40:52",
+                                        "lastModified": "2019-10-22T12:56:18",
                                         "name": "Unused",
                                         "hash": "934f6688c5e53cde4f769e30ff734abd",
                                         "children": [
@@ -1703,7 +1707,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-11T10:37:07",
+                                "lastModified": "2019-10-22T12:56:18",
                                 "name": "Textures",
                                 "hash": "537f6a6657b49f43035009f0b0cf6a8a",
                                 "children": [
@@ -2394,7 +2398,11 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1571708728952881:2139141"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",

@@ -11,6 +11,14 @@ function onTouchStart(e) {
         mySceneObject.getTransform().setWorldPosition(worldPosition);
     }
 }
+script.createEvent("BrowsRaisedEvent").bind(onBrowRaise);
+function onBrowRaise(e) {
+    if (script) {
+        var mySceneObject = createObjectFromPrefab();
+        mySceneObject.getTransform().setWorldPosition(script.getTransform().getWorldPosition());
+    }
+    
+}
 function createObjectFromPrefab() {
     if (script.orangeContainer) {
         var instanceObject = script.orangeContainer.instantiate(script.getSceneObject());
