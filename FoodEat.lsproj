@@ -3,8 +3,8 @@
     "document_id": "-1OqFH8GjTGpoPp2zZ3I",
     "original_document_id": "dIqbcVOrO1eSDB40qpGf",
     "version": "16",
-    "lastChanged": "1571709199198",
-    "preview": "C:\/Users\/Luke\/Documents\/AR\/FoodEat\/icon.png",
+    "lastChanged": "1571983897562",
+    "preview": "X:\/GitHub\/FoodEat\/icon.png",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
@@ -127,6 +127,10 @@
                     ],
                     [
                         "Scripts",
+                        "GameController"
+                    ],
+                    [
+                        "Scripts",
                         "GetPosition"
                     ],
                     [
@@ -214,7 +218,12 @@
                     "1571364064784225:867481",
                     "1571365293403311:1049785",
                     "1571706449664511:1294706",
-                    "1571706502830686:1328856"
+                    "1571706502830686:1328856",
+                    "1571708728952881:2139141",
+                    "1571708728954637:2139153",
+                    "1571708728961922:2139389",
+                    "1571708728973708:2139683",
+                    "1571708728983355:2139919"
                 ]
             ]
         },
@@ -561,6 +570,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "140",
+                    "uid": "1571983421733411:176740",
+                    "name": "Files\/File93.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -792,7 +809,8 @@
                 "26": "1571708728973708:2139683",
                 "27": "1571708728976179:2139879",
                 "28": "1571708728983355:2139919",
-                "29": "1571708728985557:2140115"
+                "29": "1571708728985557:2140115",
+                "30": "1571718089072657:571357"
             }
         },
         "LayerComponent": {
@@ -1032,6 +1050,10 @@
                 {
                     "k": "90",
                     "v": "Files\/File90.js"
+                },
+                {
+                    "k": "93",
+                    "v": "Files\/File93.js"
                 }
             ]
         },
@@ -1195,6 +1217,10 @@
                     {
                         "k": "76",
                         "v": "Scripts\/Gravity.js"
+                    },
+                    {
+                        "k": "79",
+                        "v": "Scripts\/GameController.js"
                     }
                 ],
                 "hashes": [
@@ -1436,11 +1462,11 @@
                     },
                     {
                         "k": "72",
-                        "v": "46e8b8b2321c660accb1e41d4ef380bd"
+                        "v": "b548c9c86c4e93ed6b2999c7efbc9cb2"
                     },
                     {
                         "k": "73",
-                        "v": "4760823e6ccf5ded5ce03ffae6d05c1c"
+                        "v": "d5d1812e125a00110be8dd93bf23d7ec"
                     },
                     {
                         "k": "74",
@@ -1456,15 +1482,23 @@
                     },
                     {
                         "k": "77",
-                        "v": "eca593326a197da6ad7bf84e2674ef66"
+                        "v": "2ed12fb07b4d2d3907fe2e673fc1c78b"
+                    },
+                    {
+                        "k": "78",
+                        "v": "2ed12fb07b4d2d3907fe2e673fc1c78b"
+                    },
+                    {
+                        "k": "79",
+                        "v": "2ed12fb07b4d2d3907fe2e673fc1c78b"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-10-22T12:52:41",
+                        "lastModified": "2019-10-25T17:05:41",
                         "name": "Public",
-                        "hash": "ca81ef88a017150c77651dba5773d58e",
+                        "hash": "a826e6ed68fb3c8eb02b1de4c84683e6",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -1475,7 +1509,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-11T10:37:07",
+                                "lastModified": "2019-10-22T12:56:18",
                                 "name": "Default",
                                 "hash": "5d0daf4be82fee50df678f1d3a4975ad",
                                 "children": [
@@ -1511,7 +1545,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-11T10:37:07",
+                                "lastModified": "2019-10-22T12:56:18",
                                 "name": "Fonts",
                                 "hash": "0459529f1b7919024ddd6417c7d8daf4",
                                 "children": [
@@ -1547,9 +1581,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-10-22T12:52:37",
+                                "lastModified": "2019-10-25T17:05:41",
                                 "name": "Orange Container.oprfb",
-                                "hash": "46e8b8b2321c660accb1e41d4ef380bd",
+                                "hash": "b548c9c86c4e93ed6b2999c7efbc9cb2",
                                 "children": ""
                             },
                             {
@@ -1568,9 +1602,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-22T12:51:28",
+                                "lastModified": "2019-10-25T17:09:50",
                                 "name": "Scripts",
-                                "hash": "f2e1a28e2526c77cfd67ea42d9f26bf6",
+                                "hash": "79c6e4d4f23194a92b97701515b82e80",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -1595,9 +1629,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-22T12:51:28",
+                                        "lastModified": "2019-10-25T17:09:50",
                                         "name": "FoodController.js",
-                                        "hash": "4760823e6ccf5ded5ce03ffae6d05c1c",
+                                        "hash": "d5d1812e125a00110be8dd93bf23d7ec",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-10-25T17:03:40",
+                                        "name": "GameController.js",
+                                        "hash": "2ed12fb07b4d2d3907fe2e673fc1c78b",
                                         "children": ""
                                     },
                                     {
@@ -1644,7 +1685,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-10-18T11:40:52",
+                                        "lastModified": "2019-10-22T12:56:18",
                                         "name": "Unused",
                                         "hash": "934f6688c5e53cde4f769e30ff734abd",
                                         "children": [
@@ -1703,7 +1744,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-11T10:37:07",
+                                "lastModified": "2019-10-22T12:56:18",
                                 "name": "Textures",
                                 "hash": "537f6a6657b49f43035009f0b0cf6a8a",
                                 "children": [
@@ -2053,6 +2094,19 @@
                                 "publicId": "76",
                                 "source": "",
                                 "additional": ""
+                            },
+                            {
+                                "name": "GameController",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "140",
+                                "dependency": "0",
+                                "uid": "1571983421733411:176740",
+                                "fileId": "93",
+                                "originalId": "18446744073709551615",
+                                "publicId": "79",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
                     },
@@ -2394,7 +2448,11 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1571708728952881:2139141"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
