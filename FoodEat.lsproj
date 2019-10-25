@@ -3,7 +3,7 @@
     "document_id": "-1OqFH8GjTGpoPp2zZ3I",
     "original_document_id": "dIqbcVOrO1eSDB40qpGf",
     "version": "16",
-    "lastChanged": "1571983624208",
+    "lastChanged": "1571983897562",
     "preview": "X:\/GitHub\/FoodEat\/icon.png",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
@@ -1466,7 +1466,7 @@
                     },
                     {
                         "k": "73",
-                        "v": "f16aa77484e54b85f41bf6063ef7da18"
+                        "v": "d5d1812e125a00110be8dd93bf23d7ec"
                     },
                     {
                         "k": "74",
@@ -1498,7 +1498,7 @@
                         "isFolder": "true",
                         "lastModified": "2019-10-25T17:05:41",
                         "name": "Public",
-                        "hash": "449672b5cc170fcf85fee397b0ecc9f0",
+                        "hash": "a826e6ed68fb3c8eb02b1de4c84683e6",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -1602,9 +1602,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-25T17:04:14",
+                                "lastModified": "2019-10-25T17:09:50",
                                 "name": "Scripts",
-                                "hash": "914a8fd7192d9d0b06e3c3c81b04289d",
+                                "hash": "79c6e4d4f23194a92b97701515b82e80",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -1629,9 +1629,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-25T17:04:14",
+                                        "lastModified": "2019-10-25T17:09:50",
                                         "name": "FoodController.js",
-                                        "hash": "f16aa77484e54b85f41bf6063ef7da18",
+                                        "hash": "d5d1812e125a00110be8dd93bf23d7ec",
                                         "children": ""
                                     },
                                     {
@@ -2449,14 +2449,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1571366634917890:1161230",
-                        "path_list": [
-                            "Scripts",
-                            "FoodController"
-                        ]
-                    }
+                "objects": [
+                    "1571708728952881:2139141"
                 ]
             }
         },
