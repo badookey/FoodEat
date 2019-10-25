@@ -1,7 +1,10 @@
 // -----JS CODE-----
 // @input Asset.ObjectPrefab orangeContainer
 // @input Component.Camera camera
+// @input int numOrangesShouldSpawn
 script.createEvent("BrowsRaisedEvent").bind(onBrowRaise);
+
+var numOrangesSpawned = 0;
 function onBrowRaise(e) {
     if (script) {
         spawnOranges();
@@ -9,13 +12,19 @@ function onBrowRaise(e) {
     
 }
 function spawnOranges() {
-    var mySceneObject = createObjectFromPrefab();
-    mySceneObject.getTransform().setWorldPosition(script.getTransform().getWorldPosition());
+    if (numOrangesSpawned < script.numOrangesShouldSpawn) {
+        var mySceneObject = createObjectFromPrefab();
+        mySceneObject.getTransform().setWorldPosition(script.getTransform().getWorldPosition());
+        var delayedEvent = script.createEvent("DelayedCallbackEvent");
+        delayedEvent.bind(spawnOranges);
+        delayedEvent.reset(3.5);
+        numOrangesSpawned++;
+    }
+    
 }
 
-var delayedEvent = script.createEvent("DelayedCallbackEvent");
-delayedEvent.bind(spawnOranges);
-delayedEvent.reset(2);
+spawnOranges();
+
 
 function createObjectFromPrefab() {
     if (script.orangeContainer) {
