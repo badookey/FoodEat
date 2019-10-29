@@ -1,20 +1,26 @@
 // -----JS CODE-----
 // @input Component.ScriptComponent behaviorScript
 
+// Don't process script without the behaviorScript.
+if (!script.behaviorScript) {
+    return;
+}
 
 var eaten = false;
 global.canEat = true;
-//When the object is eaten
+//Functionality to trigger when the food is ate.
 function eat() {
     if (global.canEat) {
         unbindCollisionDetection();
         script.getSceneObject().enabled = false;
         global.canEat = false;
         global.scBehaviorSystem.sendCustomTrigger("Increment Score");
+        print("Send increment score trigger");
         eaten = true;
     }
 }
 
+//Ensure trigger doesn't happen multiple times for one event
 function unbindCollisionDetection() {
     script.behaviorScript.api.removeTriggerResponse(mouthCollision)
 }
@@ -36,9 +42,6 @@ function onMouthOpened(eventData) {
 }
 
 function mouthCollision() {
-    //Debug Statement
-    //print("mouth collided --food.js");
-
     //This function abstracts 'eat', as this function can ONLY be called if both the mouth closed event AND the mouth collision event are triggered.
     if (!eaten) {
         eat();
@@ -51,8 +54,6 @@ event.bind(onMouthClosed);
 var event = script.createEvent("MouthOpenedEvent");
 event.bind(onMouthOpened);
 
-if (!script.behaviorScript) {
-    return;
-}
+
 
 

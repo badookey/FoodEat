@@ -3,7 +3,7 @@
     "document_id": "-1OqFH8GjTGpoPp2zZ3I",
     "original_document_id": "dIqbcVOrO1eSDB40qpGf",
     "version": "16",
-    "lastChanged": "1571983897562",
+    "lastChanged": "1572315005206",
     "preview": "X:\/GitHub\/FoodEat\/icon.png",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
@@ -124,10 +124,6 @@
                     [
                         "Scripts",
                         "FoodController"
-                    ],
-                    [
-                        "Scripts",
-                        "GameController"
                     ],
                     [
                         "Scripts",
@@ -570,14 +566,6 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
-                },
-                {
-                    "resId": "140",
-                    "uid": "1571983421733411:176740",
-                    "name": "Files\/File93.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -809,8 +797,7 @@
                 "26": "1571708728973708:2139683",
                 "27": "1571708728976179:2139879",
                 "28": "1571708728983355:2139919",
-                "29": "1571708728985557:2140115",
-                "30": "1571718089072657:571357"
+                "29": "1571708728985557:2140115"
             }
         },
         "LayerComponent": {
@@ -1050,10 +1037,6 @@
                 {
                     "k": "90",
                     "v": "Files\/File90.js"
-                },
-                {
-                    "k": "93",
-                    "v": "Files\/File93.js"
                 }
             ]
         },
@@ -1217,10 +1200,6 @@
                     {
                         "k": "76",
                         "v": "Scripts\/Gravity.js"
-                    },
-                    {
-                        "k": "79",
-                        "v": "Scripts\/GameController.js"
                     }
                 ],
                 "hashes": [
@@ -1234,7 +1213,7 @@
                     },
                     {
                         "k": "7",
-                        "v": "90f34752fb3012751b55eaef2cfa543e"
+                        "v": "0515a1a0406d1a8a8874c8a16aada934"
                     },
                     {
                         "k": "8",
@@ -1242,7 +1221,7 @@
                     },
                     {
                         "k": "9",
-                        "v": "9a424e5528c64cda250f2532b0170880"
+                        "v": "b3429f05453912d3743cee4e426637bf"
                     },
                     {
                         "k": "10",
@@ -1446,7 +1425,7 @@
                     },
                     {
                         "k": "68",
-                        "v": "4ca4aa335640c41e9d2b80ae443bcd7d"
+                        "v": "ea55d2f25d5bb0d3e4e381d6ecd108fa"
                     },
                     {
                         "k": "69",
@@ -1466,7 +1445,7 @@
                     },
                     {
                         "k": "73",
-                        "v": "d5d1812e125a00110be8dd93bf23d7ec"
+                        "v": "87582fe5b4d521b67b49d7ca44d7b373"
                     },
                     {
                         "k": "74",
@@ -1490,7 +1469,7 @@
                     },
                     {
                         "k": "79",
-                        "v": "2ed12fb07b4d2d3907fe2e673fc1c78b"
+                        "v": "715b621281aa05acc1bd42ecf97a89b3"
                     }
                 ],
                 "publicState": {
@@ -1498,7 +1477,7 @@
                         "isFolder": "true",
                         "lastModified": "2019-10-25T17:05:41",
                         "name": "Public",
-                        "hash": "a826e6ed68fb3c8eb02b1de4c84683e6",
+                        "hash": "9260a891bc7f6371d0d4ee151a4747f6",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -1602,9 +1581,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-25T17:09:50",
+                                "lastModified": "2019-10-29T13:09:50",
                                 "name": "Scripts",
-                                "hash": "79c6e4d4f23194a92b97701515b82e80",
+                                "hash": "49923dc5fa870cdbe9c4d27d08402418",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -1622,23 +1601,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-18T13:43:43",
+                                        "lastModified": "2019-10-29T12:17:51",
                                         "name": "Food.js",
-                                        "hash": "4ca4aa335640c41e9d2b80ae443bcd7d",
+                                        "hash": "ea55d2f25d5bb0d3e4e381d6ecd108fa",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-25T17:09:50",
+                                        "lastModified": "2019-10-29T13:09:20",
                                         "name": "FoodController.js",
-                                        "hash": "d5d1812e125a00110be8dd93bf23d7ec",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-10-25T17:03:40",
-                                        "name": "GameController.js",
-                                        "hash": "2ed12fb07b4d2d3907fe2e673fc1c78b",
+                                        "hash": "87582fe5b4d521b67b49d7ca44d7b373",
                                         "children": ""
                                     },
                                     {
@@ -1657,9 +1629,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-18T12:47:38",
+                                        "lastModified": "2019-10-29T12:26:05",
                                         "name": "IncrementScore.js",
-                                        "hash": "9a424e5528c64cda250f2532b0170880",
+                                        "hash": "b3429f05453912d3743cee4e426637bf",
                                         "children": ""
                                     },
                                     {
@@ -1671,9 +1643,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-18T13:11:39",
+                                        "lastModified": "2019-10-29T12:46:45",
                                         "name": "SimpleHighScoreController.js",
-                                        "hash": "90f34752fb3012751b55eaef2cfa543e",
+                                        "hash": "0515a1a0406d1a8a8874c8a16aada934",
                                         "children": ""
                                     },
                                     {
@@ -1912,19 +1884,6 @@
                         "additional": "",
                         "resources": [
                             {
-                                "name": "SimpleHighScoreController",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "10",
-                                "dependency": "0",
-                                "uid": "1552098004821276:13886",
-                                "fileId": "3",
-                                "originalId": "18446744073709551615",
-                                "publicId": "7",
-                                "source": "",
-                                "additional": ""
-                            },
-                            {
                                 "name": "IncrementScore",
                                 "type": "4",
                                 "subtype": "0",
@@ -2096,15 +2055,15 @@
                                 "additional": ""
                             },
                             {
-                                "name": "GameController",
+                                "name": "SimpleHighScoreController",
                                 "type": "4",
                                 "subtype": "0",
-                                "resourceId": "140",
+                                "resourceId": "10",
                                 "dependency": "0",
-                                "uid": "1571983421733411:176740",
-                                "fileId": "93",
+                                "uid": "1552098004821276:13886",
+                                "fileId": "3",
                                 "originalId": "18446744073709551615",
-                                "publicId": "79",
+                                "publicId": "7",
                                 "source": "",
                                 "additional": ""
                             }
@@ -2448,11 +2407,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1571708728952881:2139141"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",

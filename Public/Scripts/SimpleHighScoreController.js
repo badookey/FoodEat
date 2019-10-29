@@ -54,6 +54,7 @@ function resetGame() {
 }
 
 function endGame() {
+    print("Congratulations, you scored: " + currentScore.toString() + ". Did you know binge eating disorder is the most common eating disorder?");
     setHighScore();
     resetGame();
 }
