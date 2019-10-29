@@ -1,9 +1,9 @@
 {
-    "lens_id": "",
+    "lens_id": "b7161c8a-6745-4ee3-a479-148cc52570ca",
     "document_id": "-1OqFH8GjTGpoPp2zZ3I",
     "original_document_id": "dIqbcVOrO1eSDB40qpGf",
     "version": "16",
-    "lastChanged": "1572316176349",
+    "lastChanged": "1572317807882",
     "preview": "X:\/GitHub\/FoodEat\/icon.png",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
@@ -135,10 +135,6 @@
                     ],
                     [
                         "Scripts",
-                        "IncrementScore"
-                    ],
-                    [
-                        "Scripts",
                         "Rotate"
                     ],
                     [
@@ -215,7 +211,6 @@
                     "1571365293403311:1049785",
                     "1571706449664511:1294706",
                     "1571706502830686:1328856",
-                    "1571708728952881:2139141",
                     "1571708728954637:2139153",
                     "1571708728961922:2139389",
                     "1571708728973708:2139683",
@@ -227,10 +222,10 @@
             "icon_hash": "0f258e59f96a02c89cf0fb095962faa6",
             "icon_path": "icon.png",
             "hints": [
-                ""
+                "lens_hint_open_your_mouth"
             ],
-            "lens": "Simple High Score",
-            "camera": "2",
+            "lens": "Food eat",
+            "camera": "0",
             "lens_descriptors": ""
         },
         "PreviewUiComponent": {
@@ -307,14 +302,6 @@
                     "resId": "11",
                     "uid": "1552098099607215:47071",
                     "name": "Files\/File4.ttf",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "12",
-                    "uid": "1552098963221579:210442",
-                    "name": "Files\/File5.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -787,17 +774,16 @@
                 "16": "1570504019377796:114509",
                 "17": "1570504019399894:114718",
                 "18": "1570504019428372:114940",
-                "19": "1571359219998466:429726",
-                "20": "1571366880227649:1187586",
-                "21": "1571708728952881:2139141",
-                "22": "1571708728954637:2139153",
-                "23": "1571708728956734:2139349",
-                "24": "1571708728961922:2139389",
-                "25": "1571708728966900:2139588",
-                "26": "1571708728973708:2139683",
-                "27": "1571708728976179:2139879",
-                "28": "1571708728983355:2139919",
-                "29": "1571708728985557:2140115"
+                "19": "1571366880227649:1187586",
+                "20": "1571708728952881:2139141",
+                "21": "1571708728954637:2139153",
+                "22": "1571708728956734:2139349",
+                "23": "1571708728961922:2139389",
+                "24": "1571708728966900:2139588",
+                "25": "1571708728973708:2139683",
+                "26": "1571708728976179:2139879",
+                "27": "1571708728983355:2139919",
+                "28": "1571708728985557:2140115"
             }
         },
         "LayerComponent": {
@@ -841,10 +827,6 @@
                 {
                     "k": "4",
                     "v": "Files\/File4.ttf"
-                },
-                {
-                    "k": "5",
-                    "v": "Files\/File5.js"
                 },
                 {
                     "k": "6",
@@ -1064,10 +1046,6 @@
                     {
                         "k": "8",
                         "v": "Fonts\/jellee_roman.ttf"
-                    },
-                    {
-                        "k": "9",
-                        "v": "Scripts\/IncrementScore.js"
                     },
                     {
                         "k": "10",
@@ -1425,7 +1403,7 @@
                     },
                     {
                         "k": "68",
-                        "v": "ea55d2f25d5bb0d3e4e381d6ecd108fa"
+                        "v": "7d883c83ce946d3623ff6c92b3586ea2"
                     },
                     {
                         "k": "69",
@@ -1441,7 +1419,7 @@
                     },
                     {
                         "k": "72",
-                        "v": "b548c9c86c4e93ed6b2999c7efbc9cb2"
+                        "v": "86047e9581c1f6454bb0c3a93bd5f53d"
                     },
                     {
                         "k": "73",
@@ -1453,7 +1431,7 @@
                     },
                     {
                         "k": "75",
-                        "v": "a1f1ee3a3a0530c3321a0bbf9a77e3cf"
+                        "v": "7f84e5532d0a70b4ff3b086e2968bf9d"
                     },
                     {
                         "k": "76",
@@ -1475,9 +1453,9 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-10-25T17:05:41",
+                        "lastModified": "2019-10-29T13:54:16",
                         "name": "Public",
-                        "hash": "d544ad076b893dcdd39e367511cb1692",
+                        "hash": "3f5a1cd4edeebadb37a0aa156d10d48a",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -1560,16 +1538,16 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-10-25T17:05:41",
+                                "lastModified": "2019-10-29T13:54:16",
                                 "name": "Orange Container.oprfb",
-                                "hash": "b548c9c86c4e93ed6b2999c7efbc9cb2",
+                                "hash": "86047e9581c1f6454bb0c3a93bd5f53d",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-10-22T11:56:14",
+                                "lastModified": "2019-10-29T13:51:29",
                                 "name": "Orange.oprfb",
-                                "hash": "a1f1ee3a3a0530c3321a0bbf9a77e3cf",
+                                "hash": "7f84e5532d0a70b4ff3b086e2968bf9d",
                                 "children": ""
                             },
                             {
@@ -1581,9 +1559,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-29T13:29:04",
+                                "lastModified": "2019-10-29T13:56:33",
                                 "name": "Scripts",
-                                "hash": "03bbb545268d729614f78bed04a8ce49",
+                                "hash": "e98ab623bcfd7f9e128f7e614e85e9b8",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -1601,9 +1579,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-29T12:17:51",
+                                        "lastModified": "2019-10-29T13:56:26",
                                         "name": "Food.js",
-                                        "hash": "ea55d2f25d5bb0d3e4e381d6ecd108fa",
+                                        "hash": "7d883c83ce946d3623ff6c92b3586ea2",
                                         "children": ""
                                     },
                                     {
@@ -1625,13 +1603,6 @@
                                         "lastModified": "2019-10-22T12:23:58",
                                         "name": "Gravity.js",
                                         "hash": "6c36bc11c6d6e677c3d8d479af61492a",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-10-29T12:26:05",
-                                        "name": "IncrementScore.js",
-                                        "hash": "b3429f05453912d3743cee4e426637bf",
                                         "children": ""
                                     },
                                     {
@@ -1883,19 +1854,6 @@
                         "source": "",
                         "additional": "",
                         "resources": [
-                            {
-                                "name": "IncrementScore",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "12",
-                                "dependency": "0",
-                                "uid": "1552098963221579:210442",
-                                "fileId": "5",
-                                "originalId": "18446744073709551615",
-                                "publicId": "9",
-                                "source": "",
-                                "additional": ""
-                            },
                             {
                                 "name": "EndGame",
                                 "type": "4",

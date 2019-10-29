@@ -1,5 +1,6 @@
 // -----JS CODE-----
 // @input Component.ScriptComponent behaviorScript
+// @input Component.ScriptComponent highScoreController
 
 // Don't process script without the behaviorScript.
 if (!script.behaviorScript) {
@@ -14,8 +15,7 @@ function eat() {
         unbindCollisionDetection();
         script.getSceneObject().enabled = false;
         global.canEat = false;
-        global.scBehaviorSystem.sendCustomTrigger("Increment Score");
-        print("Send increment score trigger");
+        script.highScoreController.api.incrementScore();
         eaten = true;
     }
 }
