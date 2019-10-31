@@ -5,6 +5,8 @@
 
 // @input Component.Text scoreText
 // @input Component.Text highScoreText
+// @input Component.Text endGameText
+
 
 var currentScore = 0;
 var highScore = 0;
@@ -54,7 +56,9 @@ function resetGame() {
 }
 
 function endGame() {
-    print("Congratulations, you scored: " + currentScore.toString() + ". Did you know binge eating disorder is the most common eating disorder?");
+    print("Congratulations, you scored: " + currentScore.toString() + ".");
+    script.endGameText.enabled = true;
+    script.endGameText.text = "Wow, you ate " + currentScore.toString() + " oranges. Did you know binge eating disorder is the most common eating disorder?";
     setHighScore();
     resetGame();
 }

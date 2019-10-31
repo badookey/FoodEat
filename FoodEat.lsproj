@@ -3,7 +3,7 @@
     "document_id": "-1OqFH8GjTGpoPp2zZ3I",
     "original_document_id": "dIqbcVOrO1eSDB40qpGf",
     "version": "16",
-    "lastChanged": "1572317807882",
+    "lastChanged": "1572496578542",
     "preview": "X:\/GitHub\/FoodEat\/icon.png",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
@@ -115,10 +115,6 @@
                     ],
                     [
                         "Scripts",
-                        "EndGame"
-                    ],
-                    [
-                        "Scripts",
                         "Food"
                     ],
                     [
@@ -201,7 +197,6 @@
             "collapsedList": [
                 [
                     "1517446348227994:84813",
-                    "1552098026708460:14811",
                     "1570753455106874:647122",
                     "1570760614117554:1012517",
                     "1570763511505657:1410750",
@@ -211,6 +206,7 @@
                     "1571365293403311:1049785",
                     "1571706449664511:1294706",
                     "1571706502830686:1328856",
+                    "1571708728952881:2139141",
                     "1571708728954637:2139153",
                     "1571708728961922:2139389",
                     "1571708728973708:2139683",
@@ -222,7 +218,7 @@
             "icon_hash": "0f258e59f96a02c89cf0fb095962faa6",
             "icon_path": "icon.png",
             "hints": [
-                "lens_hint_open_your_mouth"
+                "lens_hint_raise_your_eyebrows"
             ],
             "lens": "Food eat",
             "camera": "0",
@@ -302,14 +298,6 @@
                     "resId": "11",
                     "uid": "1552098099607215:47071",
                     "name": "Files\/File4.ttf",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "13",
-                    "uid": "1552099091370900:241547",
-                    "name": "Files\/File6.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -747,6 +735,34 @@
                                     "attachTop": "false"
                                 }
                             }
+                        },
+                        {
+                            "k": "1572493593961842:417033",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1572493594011867:417637",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
                         }
                     ],
                     "generalData": ""
@@ -783,7 +799,9 @@
                 "25": "1571708728973708:2139683",
                 "26": "1571708728976179:2139879",
                 "27": "1571708728983355:2139919",
-                "28": "1571708728985557:2140115"
+                "28": "1571708728985557:2140115",
+                "29": "1572493593382363:412593",
+                "30": "1572493593930330:416646"
             }
         },
         "LayerComponent": {
@@ -827,10 +845,6 @@
                 {
                     "k": "4",
                     "v": "Files\/File4.ttf"
-                },
-                {
-                    "k": "6",
-                    "v": "Files\/File6.js"
                 },
                 {
                     "k": "8",
@@ -1048,10 +1062,6 @@
                         "v": "Fonts\/jellee_roman.ttf"
                     },
                     {
-                        "k": "10",
-                        "v": "Scripts\/EndGame.js"
-                    },
-                    {
                         "k": "12",
                         "v": "Textures\/high_score_background.png"
                     },
@@ -1191,7 +1201,7 @@
                     },
                     {
                         "k": "7",
-                        "v": "0515a1a0406d1a8a8874c8a16aada934"
+                        "v": "9afb8b14d7092416e2e0eecf99cc6116"
                     },
                     {
                         "k": "8",
@@ -1423,7 +1433,7 @@
                     },
                     {
                         "k": "73",
-                        "v": "73ab1d379df085fd0bd49e73e2b202ed"
+                        "v": "26fee55542c2450b1a5045d100998d50"
                     },
                     {
                         "k": "74",
@@ -1439,11 +1449,11 @@
                     },
                     {
                         "k": "77",
-                        "v": "2ed12fb07b4d2d3907fe2e673fc1c78b"
+                        "v": "7d3fc87924048dc888fc14593acfc785"
                     },
                     {
                         "k": "78",
-                        "v": "2ed12fb07b4d2d3907fe2e673fc1c78b"
+                        "v": "6d6636010ebdaca9fbdf9fba1e7fa2da"
                     },
                     {
                         "k": "79",
@@ -1455,7 +1465,7 @@
                         "isFolder": "true",
                         "lastModified": "2019-10-29T13:54:16",
                         "name": "Public",
-                        "hash": "3f5a1cd4edeebadb37a0aa156d10d48a",
+                        "hash": "d50b449f3fc7bc748019b12798a64bc3",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -1559,17 +1569,10 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-29T13:56:33",
+                                "lastModified": "2019-10-31T15:35:15",
                                 "name": "Scripts",
-                                "hash": "e98ab623bcfd7f9e128f7e614e85e9b8",
+                                "hash": "8891f03989edd45a618127ad8697eb44",
                                 "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-08-26T15:10:52",
-                                        "name": "EndGame.js",
-                                        "hash": "63a50aceab941a84b3496b1d8b88c806",
-                                        "children": ""
-                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2019-08-26T15:10:52",
@@ -1586,9 +1589,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-29T13:29:04",
+                                        "lastModified": "2019-10-31T15:35:15",
                                         "name": "FoodController.js",
-                                        "hash": "73ab1d379df085fd0bd49e73e2b202ed",
+                                        "hash": "26fee55542c2450b1a5045d100998d50",
                                         "children": ""
                                     },
                                     {
@@ -1614,9 +1617,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-29T12:46:45",
+                                        "lastModified": "2019-10-31T15:13:48",
                                         "name": "SimpleHighScoreController.js",
-                                        "hash": "0515a1a0406d1a8a8874c8a16aada934",
+                                        "hash": "9afb8b14d7092416e2e0eecf99cc6116",
                                         "children": ""
                                     },
                                     {
@@ -1854,19 +1857,6 @@
                         "source": "",
                         "additional": "",
                         "resources": [
-                            {
-                                "name": "EndGame",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "13",
-                                "dependency": "0",
-                                "uid": "1552099091370900:241547",
-                                "fileId": "6",
-                                "originalId": "18446744073709551615",
-                                "publicId": "10",
-                                "source": "",
-                                "additional": ""
-                            },
                             {
                                 "name": "GetPosition",
                                 "type": "4",
@@ -2365,7 +2355,11 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1572493593930330:416646"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
