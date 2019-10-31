@@ -1,11 +1,11 @@
 {
-    "lens_id": "",
+    "lens_id": "0b84ac3f-94bd-4f90-87f7-0dec6938a12e",
     "document_id": "-1OqFH8GjTGpoPp2zZ3I",
     "original_document_id": "dIqbcVOrO1eSDB40qpGf",
     "version": "16",
-    "lastChanged": "1571983897562",
+    "lastChanged": "1572498662047",
     "preview": "X:\/GitHub\/FoodEat\/icon.png",
-    "videoPreview": "",
+    "videoPreview": "X:\/GitHub\/FoodEat\/preview.mp4",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
     "isAutoSaved": "true",
@@ -115,10 +115,6 @@
                     ],
                     [
                         "Scripts",
-                        "EndGame"
-                    ],
-                    [
-                        "Scripts",
                         "Food"
                     ],
                     [
@@ -127,19 +123,11 @@
                     ],
                     [
                         "Scripts",
-                        "GameController"
-                    ],
-                    [
-                        "Scripts",
                         "GetPosition"
                     ],
                     [
                         "Scripts",
                         "Gravity"
-                    ],
-                    [
-                        "Scripts",
-                        "IncrementScore"
                     ],
                     [
                         "Scripts",
@@ -209,7 +197,6 @@
             "collapsedList": [
                 [
                     "1517446348227994:84813",
-                    "1552098026708460:14811",
                     "1570753455106874:647122",
                     "1570760614117554:1012517",
                     "1570763511505657:1410750",
@@ -219,7 +206,6 @@
                     "1571365293403311:1049785",
                     "1571706449664511:1294706",
                     "1571706502830686:1328856",
-                    "1571708728952881:2139141",
                     "1571708728954637:2139153",
                     "1571708728961922:2139389",
                     "1571708728973708:2139683",
@@ -228,13 +214,14 @@
             ]
         },
         "MetaInfoUIComponent": {
-            "icon_hash": "0f258e59f96a02c89cf0fb095962faa6",
+            "icon_hash": "dc409d3d53612781c865b6322b96870e",
             "icon_path": "icon.png",
+            "video_preview_path": "preview.mp4",
             "hints": [
-                ""
+                "lens_hint_raise_your_eyebrows"
             ],
-            "lens": "Simple High Score",
-            "camera": "2",
+            "lens": "Eat Oranges",
+            "camera": "0",
             "lens_descriptors": ""
         },
         "PreviewUiComponent": {
@@ -311,22 +298,6 @@
                     "resId": "11",
                     "uid": "1552098099607215:47071",
                     "name": "Files\/File4.ttf",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "12",
-                    "uid": "1552098963221579:210442",
-                    "name": "Files\/File5.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "13",
-                    "uid": "1552099091370900:241547",
-                    "name": "Files\/File6.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -570,14 +541,6 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
-                },
-                {
-                    "resId": "140",
-                    "uid": "1571983421733411:176740",
-                    "name": "Files\/File93.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -772,6 +735,34 @@
                                     "attachTop": "false"
                                 }
                             }
+                        },
+                        {
+                            "k": "1572493593961842:417033",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1572493594011867:417637",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
                         }
                     ],
                     "generalData": ""
@@ -799,18 +790,18 @@
                 "16": "1570504019377796:114509",
                 "17": "1570504019399894:114718",
                 "18": "1570504019428372:114940",
-                "19": "1571359219998466:429726",
-                "20": "1571366880227649:1187586",
-                "21": "1571708728952881:2139141",
-                "22": "1571708728954637:2139153",
-                "23": "1571708728956734:2139349",
-                "24": "1571708728961922:2139389",
-                "25": "1571708728966900:2139588",
-                "26": "1571708728973708:2139683",
-                "27": "1571708728976179:2139879",
-                "28": "1571708728983355:2139919",
-                "29": "1571708728985557:2140115",
-                "30": "1571718089072657:571357"
+                "19": "1571366880227649:1187586",
+                "20": "1571708728952881:2139141",
+                "21": "1571708728954637:2139153",
+                "22": "1571708728956734:2139349",
+                "23": "1571708728961922:2139389",
+                "24": "1571708728966900:2139588",
+                "25": "1571708728973708:2139683",
+                "26": "1571708728976179:2139879",
+                "27": "1571708728983355:2139919",
+                "28": "1571708728985557:2140115",
+                "29": "1572493593382363:412593",
+                "30": "1572493593930330:416646"
             }
         },
         "LayerComponent": {
@@ -854,14 +845,6 @@
                 {
                     "k": "4",
                     "v": "Files\/File4.ttf"
-                },
-                {
-                    "k": "5",
-                    "v": "Files\/File5.js"
-                },
-                {
-                    "k": "6",
-                    "v": "Files\/File6.js"
                 },
                 {
                     "k": "8",
@@ -1050,10 +1033,6 @@
                 {
                     "k": "90",
                     "v": "Files\/File90.js"
-                },
-                {
-                    "k": "93",
-                    "v": "Files\/File93.js"
                 }
             ]
         },
@@ -1081,14 +1060,6 @@
                     {
                         "k": "8",
                         "v": "Fonts\/jellee_roman.ttf"
-                    },
-                    {
-                        "k": "9",
-                        "v": "Scripts\/IncrementScore.js"
-                    },
-                    {
-                        "k": "10",
-                        "v": "Scripts\/EndGame.js"
                     },
                     {
                         "k": "12",
@@ -1217,10 +1188,6 @@
                     {
                         "k": "76",
                         "v": "Scripts\/Gravity.js"
-                    },
-                    {
-                        "k": "79",
-                        "v": "Scripts\/GameController.js"
                     }
                 ],
                 "hashes": [
@@ -1234,7 +1201,7 @@
                     },
                     {
                         "k": "7",
-                        "v": "90f34752fb3012751b55eaef2cfa543e"
+                        "v": "9afb8b14d7092416e2e0eecf99cc6116"
                     },
                     {
                         "k": "8",
@@ -1242,7 +1209,7 @@
                     },
                     {
                         "k": "9",
-                        "v": "9a424e5528c64cda250f2532b0170880"
+                        "v": "b3429f05453912d3743cee4e426637bf"
                     },
                     {
                         "k": "10",
@@ -1446,7 +1413,7 @@
                     },
                     {
                         "k": "68",
-                        "v": "4ca4aa335640c41e9d2b80ae443bcd7d"
+                        "v": "7d883c83ce946d3623ff6c92b3586ea2"
                     },
                     {
                         "k": "69",
@@ -1462,11 +1429,11 @@
                     },
                     {
                         "k": "72",
-                        "v": "b548c9c86c4e93ed6b2999c7efbc9cb2"
+                        "v": "86047e9581c1f6454bb0c3a93bd5f53d"
                     },
                     {
                         "k": "73",
-                        "v": "d5d1812e125a00110be8dd93bf23d7ec"
+                        "v": "097017a7556f846b64e6d668ebb50994"
                     },
                     {
                         "k": "74",
@@ -1474,7 +1441,7 @@
                     },
                     {
                         "k": "75",
-                        "v": "a1f1ee3a3a0530c3321a0bbf9a77e3cf"
+                        "v": "7f84e5532d0a70b4ff3b086e2968bf9d"
                     },
                     {
                         "k": "76",
@@ -1482,23 +1449,23 @@
                     },
                     {
                         "k": "77",
-                        "v": "2ed12fb07b4d2d3907fe2e673fc1c78b"
+                        "v": "7d3fc87924048dc888fc14593acfc785"
                     },
                     {
                         "k": "78",
-                        "v": "2ed12fb07b4d2d3907fe2e673fc1c78b"
+                        "v": "6d6636010ebdaca9fbdf9fba1e7fa2da"
                     },
                     {
                         "k": "79",
-                        "v": "2ed12fb07b4d2d3907fe2e673fc1c78b"
+                        "v": "715b621281aa05acc1bd42ecf97a89b3"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-10-25T17:05:41",
+                        "lastModified": "2019-10-29T13:54:16",
                         "name": "Public",
-                        "hash": "a826e6ed68fb3c8eb02b1de4c84683e6",
+                        "hash": "4574a3f7931d35a32948baa552776d43",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -1581,16 +1548,16 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-10-25T17:05:41",
+                                "lastModified": "2019-10-29T13:54:16",
                                 "name": "Orange Container.oprfb",
-                                "hash": "b548c9c86c4e93ed6b2999c7efbc9cb2",
+                                "hash": "86047e9581c1f6454bb0c3a93bd5f53d",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-10-22T11:56:14",
+                                "lastModified": "2019-10-29T13:51:29",
                                 "name": "Orange.oprfb",
-                                "hash": "a1f1ee3a3a0530c3321a0bbf9a77e3cf",
+                                "hash": "7f84e5532d0a70b4ff3b086e2968bf9d",
                                 "children": ""
                             },
                             {
@@ -1602,17 +1569,10 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-25T17:09:50",
+                                "lastModified": "2019-10-31T15:36:33",
                                 "name": "Scripts",
-                                "hash": "79c6e4d4f23194a92b97701515b82e80",
+                                "hash": "7fa947ae529789ce9ee14951e94030fa",
                                 "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-08-26T15:10:52",
-                                        "name": "EndGame.js",
-                                        "hash": "63a50aceab941a84b3496b1d8b88c806",
-                                        "children": ""
-                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2019-08-26T15:10:52",
@@ -1622,23 +1582,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-18T13:43:43",
+                                        "lastModified": "2019-10-29T13:56:26",
                                         "name": "Food.js",
-                                        "hash": "4ca4aa335640c41e9d2b80ae443bcd7d",
+                                        "hash": "7d883c83ce946d3623ff6c92b3586ea2",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-25T17:09:50",
+                                        "lastModified": "2019-10-31T15:36:33",
                                         "name": "FoodController.js",
-                                        "hash": "d5d1812e125a00110be8dd93bf23d7ec",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-10-25T17:03:40",
-                                        "name": "GameController.js",
-                                        "hash": "2ed12fb07b4d2d3907fe2e673fc1c78b",
+                                        "hash": "097017a7556f846b64e6d668ebb50994",
                                         "children": ""
                                     },
                                     {
@@ -1657,13 +1610,6 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-18T12:47:38",
-                                        "name": "IncrementScore.js",
-                                        "hash": "9a424e5528c64cda250f2532b0170880",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
                                         "lastModified": "2019-10-22T12:22:40",
                                         "name": "Rotate.js",
                                         "hash": "ddfc51b3052930954206a7091be0bffb",
@@ -1671,9 +1617,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-18T13:11:39",
+                                        "lastModified": "2019-10-31T15:13:48",
                                         "name": "SimpleHighScoreController.js",
-                                        "hash": "90f34752fb3012751b55eaef2cfa543e",
+                                        "hash": "9afb8b14d7092416e2e0eecf99cc6116",
                                         "children": ""
                                     },
                                     {
@@ -1912,45 +1858,6 @@
                         "additional": "",
                         "resources": [
                             {
-                                "name": "SimpleHighScoreController",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "10",
-                                "dependency": "0",
-                                "uid": "1552098004821276:13886",
-                                "fileId": "3",
-                                "originalId": "18446744073709551615",
-                                "publicId": "7",
-                                "source": "",
-                                "additional": ""
-                            },
-                            {
-                                "name": "IncrementScore",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "12",
-                                "dependency": "0",
-                                "uid": "1552098963221579:210442",
-                                "fileId": "5",
-                                "originalId": "18446744073709551615",
-                                "publicId": "9",
-                                "source": "",
-                                "additional": ""
-                            },
-                            {
-                                "name": "EndGame",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "13",
-                                "dependency": "0",
-                                "uid": "1552099091370900:241547",
-                                "fileId": "6",
-                                "originalId": "18446744073709551615",
-                                "publicId": "10",
-                                "source": "",
-                                "additional": ""
-                            },
-                            {
                                 "name": "GetPosition",
                                 "type": "4",
                                 "subtype": "0",
@@ -2096,15 +2003,15 @@
                                 "additional": ""
                             },
                             {
-                                "name": "GameController",
+                                "name": "SimpleHighScoreController",
                                 "type": "4",
                                 "subtype": "0",
-                                "resourceId": "140",
+                                "resourceId": "10",
                                 "dependency": "0",
-                                "uid": "1571983421733411:176740",
-                                "fileId": "93",
+                                "uid": "1552098004821276:13886",
+                                "fileId": "3",
                                 "originalId": "18446744073709551615",
-                                "publicId": "79",
+                                "publicId": "7",
                                 "source": "",
                                 "additional": ""
                             }
@@ -2450,7 +2357,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1571708728952881:2139141"
+                    "1571708728954637:2139153"
                 ]
             }
         },
