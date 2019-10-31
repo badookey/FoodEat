@@ -3,13 +3,16 @@
 // @input Component.Camera camera
 // @input int numOrangesShouldSpawn
 // @input Component.ScriptComponent highScoreController
+
 script.createEvent("BrowsRaisedEvent").bind(onBrowRaise);
 
 var numOrangesSpawned = 0;
 var objectsSpawned = [];
+var gameStarted = false;
 function onBrowRaise(e) {
-    if (script) {
+    if (script && !gameStarted) {
         spawnOranges();
+        gameStarted = true;
     }
     
 }
@@ -35,6 +38,7 @@ function removeAllSpawnedObjects() {
     objectsSpawned.forEach(function (orangeContainer) {
         orangeContainer.destroy();
     });
+    objectsSpawned = [];
 }
 
 function createObjectFromPrefab() {
@@ -46,6 +50,3 @@ function createObjectFromPrefab() {
         return undefined;
     }
 }
-
-//Starts the game initially
-spawnOranges();
