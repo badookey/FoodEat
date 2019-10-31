@@ -1,11 +1,11 @@
 {
-    "lens_id": "b7161c8a-6745-4ee3-a479-148cc52570ca",
+    "lens_id": "0b84ac3f-94bd-4f90-87f7-0dec6938a12e",
     "document_id": "-1OqFH8GjTGpoPp2zZ3I",
     "original_document_id": "dIqbcVOrO1eSDB40qpGf",
     "version": "16",
-    "lastChanged": "1572496578542",
+    "lastChanged": "1572498662047",
     "preview": "X:\/GitHub\/FoodEat\/icon.png",
-    "videoPreview": "",
+    "videoPreview": "X:\/GitHub\/FoodEat\/preview.mp4",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
     "isAutoSaved": "true",
@@ -206,7 +206,6 @@
                     "1571365293403311:1049785",
                     "1571706449664511:1294706",
                     "1571706502830686:1328856",
-                    "1571708728952881:2139141",
                     "1571708728954637:2139153",
                     "1571708728961922:2139389",
                     "1571708728973708:2139683",
@@ -215,12 +214,13 @@
             ]
         },
         "MetaInfoUIComponent": {
-            "icon_hash": "0f258e59f96a02c89cf0fb095962faa6",
+            "icon_hash": "dc409d3d53612781c865b6322b96870e",
             "icon_path": "icon.png",
+            "video_preview_path": "preview.mp4",
             "hints": [
                 "lens_hint_raise_your_eyebrows"
             ],
-            "lens": "Food eat",
+            "lens": "Eat Oranges",
             "camera": "0",
             "lens_descriptors": ""
         },
@@ -1433,7 +1433,7 @@
                     },
                     {
                         "k": "73",
-                        "v": "26fee55542c2450b1a5045d100998d50"
+                        "v": "097017a7556f846b64e6d668ebb50994"
                     },
                     {
                         "k": "74",
@@ -1465,7 +1465,7 @@
                         "isFolder": "true",
                         "lastModified": "2019-10-29T13:54:16",
                         "name": "Public",
-                        "hash": "d50b449f3fc7bc748019b12798a64bc3",
+                        "hash": "4574a3f7931d35a32948baa552776d43",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -1569,9 +1569,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-10-31T15:35:15",
+                                "lastModified": "2019-10-31T15:36:33",
                                 "name": "Scripts",
-                                "hash": "8891f03989edd45a618127ad8697eb44",
+                                "hash": "7fa947ae529789ce9ee14951e94030fa",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -1589,9 +1589,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-10-31T15:35:15",
+                                        "lastModified": "2019-10-31T15:36:33",
                                         "name": "FoodController.js",
-                                        "hash": "26fee55542c2450b1a5045d100998d50",
+                                        "hash": "097017a7556f846b64e6d668ebb50994",
                                         "children": ""
                                     },
                                     {
@@ -2357,7 +2357,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1572493593930330:416646"
+                    "1571708728954637:2139153"
                 ]
             }
         },
